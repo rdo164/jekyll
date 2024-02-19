@@ -93,6 +93,12 @@ A la hora de crear el **header** he tenido los siguientes **problemas**:
 ![Con](./docum-XPOL/fotos_doc/header_con_nav.png)
 </center>
 
+Hay que redirecciónar de la siguiente manera:
+
+```
+    <li><a href="../docs/nombre_del_documento_markdown.html">nombre de la página</a></li>
+```
+
 JEKYLL VS MDOCS
 
 MKDOCS
