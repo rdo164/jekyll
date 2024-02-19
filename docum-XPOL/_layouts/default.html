@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <!--
+    <link rel="stylesheet" href="{{ '../assets/css/header.css' | append: site.github.build_revision | relative_url }}">
+  -->
+    <link rel="stylesheet" href="{{ '../assets/css/stylecss' | append: site.github.build_revision | relative_url }}">
+
+</head>
+<body>
+
+  <header class="header">
+
+    <div id="logo">
+      <a href="../_site/index.html"><img src="../assets/photo/LOGO.png" alt="Imagen del logo" width="75"></a>
+      <p>XXX_API</p>
+    </div>
+    <nav id="indice">
+      <ul>
+
+        <li><a href="#">Introducción de Datos</a></li>
+        <li><a href="#">Buscar y comparar</a></li>
+        <li><a href="#">Asesoramiento para la compra</a></li>
+        <li><a href="#">Servicios y accesorios</a></li>
+      </ul>
+      
+    </nav>
+
+  </header>
+  <header>
+
+    <div id="logo">
+        <a href="./index.html"><img src="../photo/LOGO.png" alt="Imagen del logo" width="75"></a>
+        <p>Mercedes-Benz</p>
+    </div>
+
+    <nav id="indice">
+        <ul>
+            <li><a href="#index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="https://www.mercedes-benz.es/passengercars/services/online-appointment-booking.html#/">Servicios</a>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+  
+  <main>
+    {{ content }}
+  
+  </main>
+</body>
+</html>
